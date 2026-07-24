@@ -1,8 +1,12 @@
 aid: caribou
 name: Caribou
-description: 'Caribou is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Caribou is a Denver-based fintech that helps drivers lower their monthly car payments by
+  refinancing existing auto loans through a network of banks, credit unions, and community lenders.
+  Customers check personalized rates with a soft credit pull (no score impact), compare offers, add
+  co-borrowers, and complete refinancing online, and can bundle optional vehicle protection plans.
+  Caribou reports 150,000+ customers and average savings of about $162/month. The company exposes a
+  consumer web application and a contact-gated partner integration program (click-out and API options
+  for affiliates); it does not publish a public developer portal, OpenAPI, or self-serve API at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/caribou/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,29 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://caribou.com/wp-content/uploads/2026/07/FB-Share-Widget.webp
 tags:
 - Company
 - Fintech
+- Auto Refinance
+- Lending
+- Consumer Finance
+- Auto Loans
+- Personal Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +45,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.gocaribou.com/
+  url: https://caribou.com/
+- type: SignUp
+  url: https://app.caribou.com/consumer/sessions/new/
+- type: Login
+  url: https://dashboard.caribou.com/
+- type: Blog
+  url: https://caribou.com/newsroom/
+- type: Support
+  url: https://caribou.com/contact-us/
+- type: HelpCenter
+  url: https://caribou.com/faq/
+- type: TermsOfService
+  url: https://caribou.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://caribou.com/privacy-policy/
+- type: DomainSecurity
+  url: security/caribou-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
