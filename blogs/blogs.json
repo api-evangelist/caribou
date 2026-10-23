@@ -9,6 +9,13 @@
       "method": "discovered"
     },
     {
+      "source": "https://caribou.com/newsroom/feed/",
+      "feed_url": "https://caribou.com/newsroom/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://dashboard.caribou.com/",
       "feed_url": "https://dashboard.caribou.com/",
       "title": "",
@@ -17,5 +24,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-10T13:15:00Z"
+  "fetched": "2026-10-17T14:53:57Z"
 }
